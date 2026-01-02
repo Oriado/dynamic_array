@@ -6,7 +6,7 @@ class DynamicArray:
         self._capacity = initial_capacity
         self._A = self._make_array(self._capacity)
         self.resize_count = 0
-        self.growth_factor = 1.5 
+        self.growth_factor = 1.2 
 
     def __len__(self):
         return self._n
